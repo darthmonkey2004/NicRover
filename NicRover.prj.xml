@@ -1,0 +1,5640 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<dmetric>1920.0,1128.0</dmetric>
+	<Profile sr="prof561" ve="2">
+		<cdate>1516977123094</cdate>
+		<edate>1516977288228</edate>
+		<id>561</id>
+		<mid0>560</mid0>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1516976423028</cdate>
+		<name>NicRover</name>
+		<pids>561</pids>
+		<scenes>rover.controls,Variable Query,Popup,cameraSettings</scenes>
+		<tids>522,429,547,414,556,558,543,551,173,546,560,548,550,544,554,57,562,557,559,186,545,531,563,126,521,520,215,523,519,525,533,552,527,524,137,553</tids>
+		<Kid sr="Kid">
+			<flgs>1</flgs>
+			<launchID>554</launchID>
+			<mapKey>AIzaSyASqRghvloS6A9EVkFKqmOsI6XGaup_3cI</mapKey>
+			<mplug0>com.laptopfreek0.sshplugin.paid</mplug0>
+			<mplug1>com.joaomgcd.autoremote</mplug1>
+			<pkg>biz.simiantech.nicole.nicrover</pkg>
+			<vnme>1.0</vnme>
+			<vnum>3</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<nme>hd_aaa_ext_car</nme>
+		</Img>
+	</Project>
+	<Scene sr="scenePopup">
+		<cdate>1516069511536</cdate>
+		<edate>1516526131909</edate>
+		<heightLand>587</heightLand>
+		<heightPort>587</heightPort>
+		<nme>Popup</nme>
+		<widthLand>705</widthLand>
+		<widthPort>705</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>14,0,690,169,6,0,696,156</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="28"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0099CC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,169,705,7,0,169,705,7</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>16,185,672,343,0,181,704,400</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Text</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Popup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneVariable Query">
+		<cdate>1512758672816</cdate>
+		<edate>1512758672816</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>561</heightPort>
+		<nme>Variable Query</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>650</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>7,0,638,139,6,0,324,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="30"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0099CC</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,139,650,3,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>13</flags>
+			<geom>24,227,594,139,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>0,441,650,3,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Footer</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements4" ve="2">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>99,441,117,117,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Accept</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_navigation_accept</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<ImageElement sr="elements5" ve="2">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>427,441,117,117,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Cancel</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_content_remove</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Variable Query</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="scenecameraSettings">
+		<cdate>1516918947557</cdate>
+		<edate>1516919396445</edate>
+		<heightLand>733</heightLand>
+		<heightPort>-1</heightPort>
+		<nme>cameraSettings</nme>
+		<widthLand>1248</widthLand>
+		<widthPort>-1</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>428,240,418,266,0,0,1247,732</geom>
+			<linkclickTask>137</linkclickTask>
+			<Str sr="arg0" ve="3">WebView_Settings</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">http://monkey:%password@192.168.2.14:8765/</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<LinkClickFilter sr="filter0"/>
+		</WebElement>
+	</Scene>
+	<Scene sr="scenerover.controls">
+		<cdate>1499507255490</cdate>
+		<edate>1516994219092</edate>
+		<heightLand>1128</heightLand>
+		<heightPort>-1</heightPort>
+		<nme>rover.controls</nme>
+		<widthLand>1920</widthLand>
+		<widthPort>-1</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,610,76,724,100</geom>
+			<Str sr="arg0" ve="3">TXTBOX_ML_VAL</Str>
+			<Str sr="arg1" ve="3">Left Engine Speed (PWM):</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<WebElement sr="elements1" ve="2">
+			<flags>4</flags>
+			<geom>428,240,418,266,10,326,1225,725</geom>
+			<linkclickTask>523</linkclickTask>
+			<Str sr="arg0" ve="3">uyiWebView_CAM</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">rovercam.html</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<LinkClickFilter sr="filter0"/>
+		</WebElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,110,101,99,50</geom>
+			<Str sr="arg0" ve="3">TXTBOX_setPinValue</Str>
+			<Str sr="arg1" ve="3">Value:</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,110,151,99,50</geom>
+			<valueselectedTask>543</valueselectedTask>
+			<Str sr="arg0" ve="3">TXTEDIT_SetPinValue</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTEDIT_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="4"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTEDIT_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTEDIT_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements12" ve="3">
+			<clickTask>521</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,210,101,399,100</geom>
+			<Str sr="arg0" ve="3">BTN_SetPin</Str>
+			<Str sr="arg1" ve="3">Set!</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<CheckBoxElement sr="elements13">
+			<checkchangeTask>522</checkchangeTask>
+			<flags>4</flags>
+			<geom>580,354,76,76,10,51,49,50</geom>
+			<Str sr="arg0" ve="3">CHKBOX_WriteDigital</Str>
+			<Int sr="arg1" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%BACKGROUND</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%BORDERCOLOR</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<CheckBoxElement sr="elements14">
+			<checkchangeTask>524</checkchangeTask>
+			<flags>4</flags>
+			<geom>0,0,86,88,560,51,49,50</geom>
+			<Str sr="arg0" ve="3">CHKBOX_WriteAnalog</Str>
+			<Int sr="arg1" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%BACKGROUND</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%BORDERCOLOR</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements15" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,60,51,249,50</geom>
+			<Str sr="arg0" ve="3">TXTBOX_WriteDigital</Str>
+			<Str sr="arg1" ve="3">Write Mode: Digital</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements16" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,310,51,249,50</geom>
+			<Str sr="arg0" ve="3">TXTBOX_WriteAnalog</Str>
+			<Str sr="arg1" ve="3">Write Mode: Analog</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements17" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,610,1,724,75</geom>
+			<Str sr="arg0" ve="3">TXTBOX_setEngine</Str>
+			<Str sr="arg1" ve="3">Configure Engine Controls:</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements18" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,1635,1,274,150</geom>
+			<Str sr="arg0" ve="3">OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements19" ve="3">
+			<clickTask>556</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,1335,951,199,75</geom>
+			<Str sr="arg0" ve="3">BTN_CameraLeft</Str>
+			<Str sr="arg1" ve="3">Camera Left</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="3"/>
+			<Img sr="arg7" ve="2">
+				<nme>hd_images_rotate_left</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,610,176,724,100</geom>
+			<Str sr="arg0" ve="3">TXTBOX_setRightPWM</Str>
+			<Str sr="arg1" ve="3">Right Engine Speed (PWM):</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements20" ve="3">
+			<clickTask>557</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,1710,951,199,75</geom>
+			<Str sr="arg0" ve="3">BTN_CameraRight</Str>
+			<Str sr="arg1" ve="3">Camera Right</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="4"/>
+			<Img sr="arg7" ve="2">
+				<nme>hd_images_rotate_right</nme>
+			</Img>
+		</ButtonElement>
+		<SliderElement sr="elements21">
+			<flags>4</flags>
+			<geom>0,0,162,50,610,126,674,50</geom>
+			<valueselectedTask>414</valueselectedTask>
+			<Str sr="arg0" ve="3">Slider_PWM_Left</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Img sr="arg6" ve="2">
+				<nme>hd_device_access_secure</nme>
+			</Img>
+		</SliderElement>
+		<SliderElement sr="elements22">
+			<flags>4</flags>
+			<geom>542,354,152,38,610,226,674,50</geom>
+			<valueselectedTask>429</valueselectedTask>
+			<Str sr="arg0" ve="3">Slider_PWM_Right</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Img sr="arg6" ve="2">
+				<nme>hd_aaa_ext_car</nme>
+			</Img>
+		</SliderElement>
+		<EditTextElement sr="elements23" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,1285,226,49,50</geom>
+			<valueselectedTask>527</valueselectedTask>
+			<Str sr="arg0" ve="3">TXTEDIT_MR_VAL</Str>
+			<Str sr="arg1" ve="3">%ROVER_MR_VAL</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTEDIT_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="4"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTEDIT_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTEDIT_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<EditTextElement sr="elements24" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,1285,126,49,50</geom>
+			<valueselectedTask>531</valueselectedTask>
+			<Str sr="arg0" ve="3">TXTEDIT_ML_VAL</Str>
+			<Str sr="arg1" ve="3">%ROVER_ML_VAL</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTEDIT_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="4"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTEDIT_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTEDIT_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<CheckBoxElement sr="elements25">
+			<checkchangeTask>519</checkchangeTask>
+			<flags>4</flags>
+			<geom>0,0,86,88,1285,276,49,50</geom>
+			<Str sr="arg0" ve="3">CHKBOX_LockSliders</Str>
+			<Int sr="arg1" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%BACKGROUND</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%BORDERCOLOR</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</CheckBoxElement>
+		<TextElement sr="elements26" ve="3">
+			<clickTask>525</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,610,276,674,50</geom>
+			<Str sr="arg0" ve="3">TXTBOX_LockSliders</Str>
+			<Str sr="arg1" ve="3">Lock Sliders: %ROVER_LOCK_SLIDERS</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements27" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,1335,1,299,150</geom>
+			<Str sr="arg0" ve="3">STATUS</Str>
+			<Str sr="arg1" ve="3">Free Memory : %MEMF/%MEMT
+CPU Frequency : %CPUFREQ
+CPU Governor mode : %CPUGOV
+Battery Level : %BATT
+Battery State : %BATT_STATE
+Tasks Running:
+(%TRUN)
+
+Profiles Active:
+%PACTIVE
+
+Mood / Health : Mood Ratio (Functional Percentage) %MOOD / %HEALTH : %MOOD_RATIO
+Name: %NICOLE
+Temper: %TEMPER
+%FEEL</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements28" ve="3">
+			<clickTask>520</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,1560,826,124,100</geom>
+			<Str sr="arg0" ve="3">BTN_Stop</Str>
+			<Str sr="arg1" ve="3">Stop</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<SceneElement sr="elements29" ve="2">
+			<flags>4</flags>
+			<geom>428,240,418,266,1335,151,574,500</geom>
+			<Str sr="arg0" ve="3">Map</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+		</SceneElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>548</clickTask>
+			<flags>4</flags>
+			<geom>428,240,418,266,1335,826,224,100</geom>
+			<Str sr="arg0" ve="3">BTN_Right1</Str>
+			<Str sr="arg1" ve="3">Left</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements30" ve="3">
+			<flags>4</flags>
+			<geom>0,1,435,275,310,1051,224,75</geom>
+			<Str sr="arg0" ve="3">CONNECTION</Str>
+			<Str sr="arg1" ve="3">%ROVER_STATE</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements31" ve="3">
+			<clickTask>544</clickTask>
+			<flags>4</flags>
+			<geom>0,1,435,275,535,1053,400,75</geom>
+			<Str sr="arg0" ve="3">BTN_Connect</Str>
+			<Str sr="arg1" ve="3">Connect!</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements32" ve="3">
+			<flags>4</flags>
+			<geom>0,1,435,275,10,1051,299,75</geom>
+			<Str sr="arg0" ve="3">TXTBOX_Connection</Str>
+			<Str sr="arg1" ve="3">Connection State:</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="4"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements33" ve="3">
+			<clickTask>546</clickTask>
+			<flags>4</flags>
+			<geom>0,1,435,275,935,1051,400,77</geom>
+			<Str sr="arg0" ve="3">BTN_Disconnect</Str>
+			<Str sr="arg1" ve="3">Disconnect...</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements34" ve="3">
+			<clickTask>554</clickTask>
+			<flags>4</flags>
+			<geom>0,1,435,275,210,101,400,100</geom>
+			<Str sr="arg0" ve="3">BTN_CamSettings</Str>
+			<Str sr="arg1" ve="3">Camera Settings...</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>551</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,1685,826,224,100</geom>
+			<Str sr="arg0" ve="3">Button_Left</Str>
+			<Str sr="arg1" ve="3">Right</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements5" ve="3">
+			<clickTask>550</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,1560,651,124,175</geom>
+			<Str sr="arg0" ve="3">BTN_Forward</Str>
+			<Str sr="arg1" ve="3">F</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>547</clickTask>
+			<flags>4</flags>
+			<geom>0,0,428,278,1560,926,124,175</geom>
+			<Str sr="arg0" ve="3">BTN_Reverse</Str>
+			<Str sr="arg1" ve="3">R</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%BTN_LabelColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>428,240,418,266,10,1,599,50</geom>
+			<Str sr="arg0" ve="3">TXTBOX_setPin</Str>
+			<Str sr="arg1" ve="3">Set pin:</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<EditTextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>428,240,418,266,10,151,99,50</geom>
+			<valueselectedTask>533</valueselectedTask>
+			<Str sr="arg0" ve="3">TXTEDIT_SetPin</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTEDIT_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="4"/>
+			<Int sr="arg8" val="1000"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTEDIT_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTEDIT_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>0,0,428,278,10,101,99,50</geom>
+			<Str sr="arg0" ve="3">TXTBOX_setPinNumber</Str>
+			<Str sr="arg1" ve="3">Pin:</Str>
+			<Int sr="arg2">
+				<var>%FONTSIZE</var>
+			</Int>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">%TXTBOX_TextColor</Str>
+			<Str sr="arg5" ve="3">%FONT</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%TXTBOX_Color</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="1"/>
+				<Str sr="arg5" ve="3">%TXTBOX_BorderColor</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">rover.controls</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>rover.cameraSettings</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">rover.cameraSettings</Str>
+					<Int sr="arg1">
+						<var>%priority+1</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>rover.intent.send</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">rover.intent.send</Str>
+					<Int sr="arg1">
+						<var>%priority+1</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>rover.scan.net</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">rover.scan.net</Str>
+					<Int sr="arg1">
+						<var>%priority+1</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>rover.test.connected</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">rover.test.connected</Str>
+					<Int sr="arg1">
+						<var>%priority+1</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task126">
+		<cdate>1481513367416</cdate>
+		<edate>1511381554718</edate>
+		<id>126</id>
+		<nme>say</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="10"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CHAT</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SAY_SPEED</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SAY_SPEED</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%say_pitch</Str>
+			<Str sr="arg1" ve="3">%SAY_PITCH</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%say</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_ACTIVE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%say</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>559</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%say</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3">
+				<var>%say_pitch</var>
+			</Int>
+			<Int sr="arg4">
+				<var>%say_speed</var>
+			</Int>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%action</lhs>
+					<op>2</op>
+					<rhs>say</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SAY_ACTIVE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>445</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%say</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="3"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%action</lhs>
+					<op>2</op>
+					<rhs>effect</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CHAT</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Nicole/System/log.nic</Str>
+			<Str sr="arg1" ve="3">Nicole Says: %say
+Time: %TIME
+Date: %DATE
+Speech Active: %SAY_ACTIVE
+Flash Speech Active: %FLASH_ACTIVE
+evtprm() { %evtprm() }</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">Nicole says: %say</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SAY_PITCH</Str>
+			<Str sr="arg1" ve="3">8</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SAY_PITCH</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%FLASH_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_ACTIVE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SAY_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SAY_ACTIVE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%say</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%say</Str>
+			<Str sr="arg1" ve="3">Testing speech functionality.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%action</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%action</Str>
+			<Str sr="arg1" ve="3">say</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%say_speed</Str>
+			<Str sr="arg1" ve="3">%SAY_SPEED</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task137">
+		<cdate>1516919371610</cdate>
+		<edate>1516919371610</edate>
+		<id>137</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%url</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Add to clipboard: %url</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task173">
+		<cdate>1475203183353</cdate>
+		<edate>1513807472053</edate>
+		<id>173</id>
+		<nme>sec.pass.decrypt</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%morphed</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>775</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%bin</Str>
+			<Str sr="arg1" ve="3">%cypher</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Str sr="arg1" ve="3">%pass</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Int sr="arg1" val="25"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>406</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%morphed</Str>
+			<Str sr="arg1" ve="3">%PASSWORD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PASSWORD</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Str sr="arg1" ve="3">%ENCODED</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ENCODED</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">Error! Password cannot be decrypted, missing cypher.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ENCODED</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sec.pass.encrypt</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ENCODED</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>345</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%morphed</Str>
+			<Str sr="arg2" ve="3">%morphlen</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tail</Str>
+			<Str sr="arg1" ve="3">%morphlen-2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%morphed</Str>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2">
+				<var>%tail</var>
+			</Int>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">%bin</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%newline</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task186">
+		<cdate>1475192997075</cdate>
+		<edate>1513807239803</edate>
+		<id>186</id>
+		<nme>sec.pass.encrypt</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>pin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">Enter Pin:</Str>
+			<Str sr="arg1" ve="3">%pass</Str>
+			<Int sr="arg2" val="7"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="600"/>
+			<Int sr="arg7" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">err</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">encode</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<label>err</label>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Error : Password failed to be set. Unknown error.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>pin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">encode</Str>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Error : Pin failed to be set. Pin non-numeric!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>lock</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass</lhs>
+					<op>2</op>
+					<rhs>on/off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">encode</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">err</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Error : invalid lock option!
+Options are: on, off.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>596</code>
+			<label>encode</label>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Int sr="arg1" val="24"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%newline</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>590</code>
+			<label>trim newline character off encoded string</label>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Str sr="arg1" ve="3">%newline</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Str sr="arg1" ve="3">%pass1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>password</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">Error : Failed to encode password. Unknown error.</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%err</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">encrypt</Str>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>300</code>
+			<label>encrypt</label>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>345</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%pass</Str>
+			<Str sr="arg2" ve="3">%len</Str>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>300</code>
+			<label>start random gen loop</label>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%count</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%random</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="9"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Str sr="arg1" ve="3">%random</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>135</code>
+			<label>Loop again if count doesn't equal len</label>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">start random gen loop</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%count</lhs>
+					<op>6</op>
+					<rhs>%len</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PIN_ENCODED</Str>
+			<Str sr="arg1" ve="3">%cypher</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>pin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">Password</Str>
+			<Str sr="arg1" ve="3">%pass</Str>
+			<Int sr="arg2" val="5"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="600"/>
+			<Int sr="arg7" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>547</code>
+			<label>save cypher as ENCODED variable for decrypt</label>
+			<Str sr="arg0" ve="3">%ENCODED</Str>
+			<Str sr="arg1" ve="3">%cypher</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>3</op>
+					<rhs>password</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>547</code>
+			<label>save cypher as ENCODED variable for decrypt</label>
+			<Str sr="arg0" ve="3">%LOCK_ENCODED</Str>
+			<Str sr="arg1" ve="3">%cypher</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>3</op>
+					<rhs>lock</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>410</code>
+			<label>write encoded pass to randomly generated filename</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Str sr="arg1" ve="3">%pass</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>776</code>
+			<label>reads cypher file as binarized data</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Str sr="arg1" ve="3">%bin</Str>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>590</code>
+			<label>trim newline character off of binary conversion.</label>
+			<Str sr="arg0" ve="3">%bin</Str>
+			<Str sr="arg1" ve="3">%newline</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%bin</Str>
+			<Str sr="arg1" ve="3">%bin1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%bin1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>547</code>
+			<label>add 0 in bit 1 to disguise binary format (confuses interpreters)</label>
+			<Str sr="arg0" ve="3">%morphed</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>547</code>
+			<label>add binary data</label>
+			<Str sr="arg0" ve="3">%morphed</Str>
+			<Str sr="arg1" ve="3">%bin</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>547</code>
+			<label>add 0 in last bit to disguise binary format (confuses interpreters)</label>
+			<Str sr="arg0" ve="3">%morphed</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%filename</Str>
+			<Str sr="arg1" ve="3">Nicole/UserData/%USER/%USER.auth.bin.pad0.nic</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PIN</Str>
+			<Str sr="arg1" ve="3">%morphed</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>pin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PASSWORD</Str>
+			<Str sr="arg1" ve="3">%morphed</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>password</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOCK</Str>
+			<Str sr="arg1" ve="3">%morphed</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>lock</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>406</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%cypher</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%morphed</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">err</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pass</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>lock</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pass</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task215">
+		<cdate>1502062326055</cdate>
+		<edate>1509879354278</edate>
+		<id>215</id>
+		<nme>ar.getKey</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>-r</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%required</Str>
+			<Str sr="arg1" ve="3">Task: ar.getKey
+Description: Tests for AutoRemote package, then gets this devices key and stores it in global variable 'AROWNKEY' for usage in remote ssh tasks for responding to device after lengthy operations, such as media viewing.
+Usage: 'ar.getKey'
+
+REQUIREMENTS
+plugin:AutoRemote</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%arpkg</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">say</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Ah, it doesn't appear that Auto Remote is installed. This will be a requirement for full functionality of my remote media management capabilities. Shall I open it in Goole Play Store for you?</Str>
+			<Str sr="arg3" ve="3">say</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">%LISTEN</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%com</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VOICE</lhs>
+					<op>2</op>
+					<rhs>%YES</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">say</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Loading Play Store. Please restart this after your purchase is complete.</Str>
+			<Str sr="arg3" ve="3">say</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>877</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">https://play.google.com/store/apps/details?id=com.joaomgcd.autoremote</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.vending</Str>
+			<Str sr="arg8" ve="3">com.google.android.finsky.activities.MainActivity</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Purchase AutoRemote from Google Play Store (4.99) to use this task!
+https://play.google.com/store/apps/details?id=com.joaomgcd.autoremote</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">return</Str>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">say</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Do you wish to continue with limited functionality?</Str>
+			<Str sr="arg3" ve="3">say</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%required</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">%LISTEN</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%com</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VOICE</lhs>
+					<op>2</op>
+					<rhs>%YES</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">%SAY</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">Ok.</Str>
+			<Str sr="arg3" ve="3">say</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">init</Str>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%VOICE</lhs>
+					<op>2</op>
+					<rhs>%NOPE</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%VOICE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%say</Str>
+			<Str sr="arg1" ve="3">Exiting task. Please re run this task later either after downlaoding Auto Remote or to continue with a few limitations.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">%SAY</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%say</Str>
+			<Str sr="arg3" ve="3">say</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%VOICE</lhs>
+					<op>2</op>
+					<rhs>%NOPE</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%VOICE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">%say
+Purchase AutoRemote from Google Play Store (4.99) to use this task!
+https://play.google.com/store/apps/details?id=com.joaomgcd.autoremote</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">return</Str>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>300</code>
+			<label>return</label>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">%AROWNKEY</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%out</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AROWNKEY</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>837429111</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Querying AutoRemote Devices</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%arownname
+Name of the device you're holding
+Name of the device you're holding&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%arownkey
+Personal key of the device you're holding
+Personal key of the device you're holding&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%arservicewifi
+Status of the wifi service
+&amp;lt;b&amp;gt;true&amp;lt;/b&amp;gt; if Wifi service is enabled, &amp;lt;b&amp;gt;false&amp;lt;/b&amp;gt; if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%arservicebt
+Status of the bluetooth service
+&amp;lt;b&amp;gt;true&amp;lt;/b&amp;gt; if bluetooth service is enabled, &amp;lt;b&amp;gt;false&amp;lt;/b&amp;gt; if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%arids()
+Device Ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%arnames()
+Device Names
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%artypes()
+Device Types
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>FieldsToGet plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>e8b527ea-10a7-4029-8fc1-87934a70cb61</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentQuery</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivityConfigQuery</Str>
+			<Int sr="arg3" val="5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AROWNKEY</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AROWNKEY</Str>
+			<Str sr="arg1" ve="3">%arownkey</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%arownkey</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%arownkey</lhs>
+					<op>3</op>
+					<rhs>%*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%AROWNKEY</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NPLAYER_AROWNKEY</Str>
+			<Str sr="arg1" ve="3">%AROWNKEY</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AROWNKEY</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AROWNKEY</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">say</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">I wasn't able to acquire this device's Auto Remote key, which is neccesary to receive communications from the remote media servers. One moment while I figure this out.</Str>
+			<Str sr="arg3" ve="3">say</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>344</code>
+			<se>false</se>
+			<Int sr="arg0" val="8"/>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">%arpkg</Str>
+		</Action>
+	</Task>
+	<Task sr="task414">
+		<cdate>1516990890658</cdate>
+		<edate>1516990890658</edate>
+		<id>414</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_LOCKED_SLIDERS</lhs>
+					<op>2</op>
+					<rhs>on/1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task429">
+		<cdate>1516991156557</cdate>
+		<edate>1516991156557</edate>
+		<id>429</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_LOCKED_SLIDERS</lhs>
+					<op>2</op>
+					<rhs>on/1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task519">
+		<cdate>1499508308163</cdate>
+		<edate>1499508308163</edate>
+		<id>519</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_LOCK_SLIDERS</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Speed control sliders locked!
+(move both together)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Speed control sliders unlocked!!
+(move each individually)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task520">
+		<cdate>1515996148008</cdate>
+		<edate>1515996148008</edate>
+		<id>520</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DEV</Str>
+			<Str sr="arg1" ve="3">/dev/ttyACM0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DEV</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_ACTIVE</lhs>
+					<op>3</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Right</Str>
+			<Int sr="arg2">
+				<var>%ROVER_MR_VAL</var>
+			</Int>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">Sent:%data</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DRIVE_MODE</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DRIVE_MODE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%function</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mode</Str>
+			<Str sr="arg1" ve="3">%ROVER_DRIVE_MODE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">/%function/%mode/%ROVER_ML_VAL/%ROVER_MR_VAL/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">http://%ROVER_IP/cgi-bin/test.cgi?%data</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Left</Str>
+			<Int sr="arg2">
+				<var>%ROVER_ML_VAL</var>
+			</Int>
+		</Action>
+	</Task>
+	<Task sr="task521">
+		<cdate>1499507288813</cdate>
+		<edate>1499507288813</edate>
+		<id>521</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%pin</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%val</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%mode</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%pin</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%pin</lhs>
+					<op>2</op>
+					<rhs>%*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">return</Str>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>300</code>
+			<label>write</label>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DEV</Str>
+			<Str sr="arg1" ve="3">/dev/ttyACM0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%com</Str>
+			<Str sr="arg1" ve="3">echo "/2/%mode/%pin/%val/" &gt; %ROVER_DEV</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sec.pass.decrypt</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%password</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%password</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>2057451072</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Address>192.168.2.14</Address>
+					<Address-type>java.lang.String</Address-type>
+					<BUNDLE_EXTRA_INT_VERSION_CODE>1</BUNDLE_EXTRA_INT_VERSION_CODE>
+					<BUNDLE_EXTRA_INT_VERSION_CODE-type>java.lang.Integer</BUNDLE_EXTRA_INT_VERSION_CODE-type>
+					<Command>%com</Command>
+					<Command-type>java.lang.String</Command-type>
+					<Keypair_File></Keypair_File>
+					<Keypair_File-type>java.lang.String</Keypair_File-type>
+					<Password>%password</Password>
+					<Password-type>java.lang.String</Password-type>
+					<Password_Variable>true</Password_Variable>
+					<Password_Variable-type>java.lang.Boolean</Password_Variable-type>
+					<Port>22</Port>
+					<Port-type>java.lang.String</Port-type>
+					<Return_Output>true</Return_Output>
+					<Return_Output-type>java.lang.Boolean</Return_Output-type>
+					<Username>pi</Username>
+					<Username-type>java.lang.String</Username-type>
+					<Variable>%out</Variable>
+					<Variable-type>java.lang.String</Variable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%com</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command Keypair_File Address Port Username Password</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.laptopfreek0.sshplugin.paid</Str>
+			<Str sr="arg2" ve="3">com.laptopfreek0.sshplugin.paid.EditActivity</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">%com
+
+%out</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="600"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>300</code>
+			<label>return</label>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Error: No pin set! Set the pin number with the text box 'Pin', and the value with the 'Value' textbox.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%val</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%val</lhs>
+					<op>2</op>
+					<rhs>%*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">
+Error: No value set! Set the pin number with the text box 'Pin', and the value with the 'Value' textbox.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%mode</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%mode</lhs>
+					<op>2</op>
+					<rhs>%*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">
+Error: No write mode set! Use the checkboxes to set the write mode (digital or analog).</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task522">
+		<cdate>1499508308163</cdate>
+		<edate>1499508308163</edate>
+		<id>522</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mode</Str>
+			<Str sr="arg1" ve="3">2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">CHKBOX_WriteAnalog</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task523">
+		<cdate>1516961996280</cdate>
+		<edate>1516961996280</edate>
+		<id>523</id>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>53</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">uyiWebView_CAM</Str>
+			<Int sr="arg2" val="11"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task524">
+		<cdate>1499508308163</cdate>
+		<edate>1499508308163</edate>
+		<id>524</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mode</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">CHKBOX_WriteDigital</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task525">
+		<cdate>1499513036381</cdate>
+		<edate>1516978498343</edate>
+		<id>525</id>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">v</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task527">
+		<cdate>1499507876929</cdate>
+		<edate>1499507876929</edate>
+		<id>527</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">Right motor set to %ROVER_MR_VAL</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task531">
+		<cdate>1499507876929</cdate>
+		<edate>1499507876929</edate>
+		<id>531</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">Left motor set to %ROVER_ML_VAL</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task533">
+		<cdate>1499507876929</cdate>
+		<edate>1499507876929</edate>
+		<id>533</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pin</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task543">
+		<cdate>1499507876929</cdate>
+		<edate>1499507876929</edate>
+		<id>543</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%val</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task544">
+		<cdate>1516224062435</cdate>
+		<edate>1516974006525</edate>
+		<id>544</id>
+		<nme>rover.connect</nme>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DEV</Str>
+			<Str sr="arg1" ve="3">/dev/ttyACM0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DEV</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_BAUD</Str>
+			<Str sr="arg1" ve="3">115200</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_BAUD</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">%USER:%password@%ROVER_IP?state=on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%com</Str>
+			<Str sr="arg1" ve="3">echo "http://autoremotejoaomgcd.appspot.com/sendmessage?key=%AROWNKEY&amp;message=roverState.on" &gt; AROWNKEY.NIC ; acm=$(ls /dev/ttyACM*) ; if [ -n "$acm" ]; then dev="$acm"; fi ; usb=$(ls /dev/ttyUSB*) ; if [ -n "$usb" ]; then dev="$usb"; fi ; if [ -n "$dev" ]; then sudo chmod 777 "$dev"; else echo "Error: No serial device found!"; exit 1; fi ; sudo motion -c "%conf"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>2057451072</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Address>%ROVER_IP</Address>
+					<Address-type>java.lang.String</Address-type>
+					<BUNDLE_EXTRA_INT_VERSION_CODE>1</BUNDLE_EXTRA_INT_VERSION_CODE>
+					<BUNDLE_EXTRA_INT_VERSION_CODE-type>java.lang.Integer</BUNDLE_EXTRA_INT_VERSION_CODE-type>
+					<Command>%com</Command>
+					<Command-type>java.lang.String</Command-type>
+					<Keypair_File></Keypair_File>
+					<Keypair_File-type>java.lang.String</Keypair_File-type>
+					<Password>%password</Password>
+					<Password-type>java.lang.String</Password-type>
+					<Password_Variable>true</Password_Variable>
+					<Password_Variable-type>java.lang.Boolean</Password_Variable-type>
+					<Port>22</Port>
+					<Port-type>java.lang.String</Port-type>
+					<Return_Output>true</Return_Output>
+					<Return_Output-type>java.lang.Boolean</Return_Output-type>
+					<Username>pi</Username>
+					<Username-type>java.lang.String</Username-type>
+					<Variable>%out</Variable>
+					<Variable-type>java.lang.String</Variable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%com</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command Keypair_File Address Port Username Password</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.laptopfreek0.sshplugin.paid</Str>
+			<Str sr="arg2" ve="3">com.laptopfreek0.sshplugin.paid.EditActivity</Str>
+			<Int sr="arg3" val="15"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%com</Str>
+			<Str sr="arg1" ve="3">python "$HOME/%read_serial" "%ROVER_DEV" "%ROVER_BAUD"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>2057451072</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Address>%ROVER_IP</Address>
+					<Address-type>java.lang.String</Address-type>
+					<BUNDLE_EXTRA_INT_VERSION_CODE>1</BUNDLE_EXTRA_INT_VERSION_CODE>
+					<BUNDLE_EXTRA_INT_VERSION_CODE-type>java.lang.Integer</BUNDLE_EXTRA_INT_VERSION_CODE-type>
+					<Command>%com</Command>
+					<Command-type>java.lang.String</Command-type>
+					<Keypair_File></Keypair_File>
+					<Keypair_File-type>java.lang.String</Keypair_File-type>
+					<Password>%password</Password>
+					<Password-type>java.lang.String</Password-type>
+					<Password_Variable>true</Password_Variable>
+					<Password_Variable-type>java.lang.Boolean</Password_Variable-type>
+					<Port>22</Port>
+					<Port-type>java.lang.String</Port-type>
+					<Return_Output>true</Return_Output>
+					<Return_Output-type>java.lang.Boolean</Return_Output-type>
+					<Username>pi</Username>
+					<Username-type>java.lang.String</Username-type>
+					<Variable>%out</Variable>
+					<Variable-type>java.lang.String</Variable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%com</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command Keypair_File Address Port Username Password</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.laptopfreek0.sshplugin.paid</Str>
+			<Str sr="arg2" ve="3">com.laptopfreek0.sshplugin.paid.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Connected to rover at %ROVER_IP!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_STATE</Str>
+			<Str sr="arg1" ve="3">Connected!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%dev</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%dev</Str>
+			<Str sr="arg1" ve="3">%ROVER_DEV</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DEV</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%dev</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%baud</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%baud</Str>
+			<Str sr="arg1" ve="3">%ROVER_BAUD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_BAUD</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%dev</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%read_serial</Str>
+			<Str sr="arg1" ve="3">serial.read.py</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%conf</Str>
+			<Str sr="arg1" ve="3">/etc/motion/motion.conf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ar.getKey</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%AROWNKEY</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AROWNKEY</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sec.pass.decrypt</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%password</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%password</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task545">
+		<cdate>1516918924693</cdate>
+		<edate>1516926376147</edate>
+		<id>545</id>
+		<nme>rover.cameraSettings</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">&lt;li&gt;&lt;a href=/0/config/set?daemon&gt;daemon&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?process_id_file&gt;process_id_file&lt;/a&gt; = /var/run/motion/motion.pid&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?setup_mode&gt;setup_mode&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?logfile&gt;logfile&lt;/a&gt; = /var/log/motion/motion.log&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?log_level&gt;log_level&lt;/a&gt; = 6&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?log_type&gt;log_type&lt;/a&gt; = all&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?videodevice&gt;videodevice&lt;/a&gt; = /dev/video0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?v4l2_palette&gt;v4l2_palette&lt;/a&gt; = 15&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?input&gt;input&lt;/a&gt; = -1&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?norm&gt;norm&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?frequency&gt;frequency&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?rotate&gt;rotate&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?width&gt;width&lt;/a&gt; = 352&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?height&gt;height&lt;/a&gt; = 288&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?framerate&gt;framerate&lt;/a&gt; = 100&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?minimum_frame_time&gt;minimum_frame_time&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?netcam_url&gt;netcam_url&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?netcam_userpass&gt;netcam_userpass&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?netcam_keepalive&gt;netcam_keepalive&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?netcam_proxy&gt;netcam_proxy&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?netcam_tolerant_check&gt;netcam_tolerant_check&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?auto_brightness&gt;auto_brightness&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?brightness&gt;brightness&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?contrast&gt;contrast&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?saturation&gt;saturation&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?hue&gt;hue&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?roundrobin_frames&gt;roundrobin_frames&lt;/a&gt; = 1&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?roundrobin_skip&gt;roundrobin_skip&lt;/a&gt; = 1&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?switchfilter&gt;switchfilter&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?threshold&gt;threshold&lt;/a&gt; = 1500&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?threshold_tune&gt;threshold_tune&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?noise_level&gt;noise_level&lt;/a&gt; = 32&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?noise_tune&gt;noise_tune&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?despeckle_filter&gt;despeckle_filter&lt;/a&gt; = EedDl&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?area_detect&gt;area_detect&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?mask_file&gt;mask_file&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?smart_mask_speed&gt;smart_mask_speed&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?lightswitch&gt;lightswitch&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?minimum_motion_frames&gt;minimum_motion_frames&lt;/a&gt; = 1&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?pre_capture&gt;pre_capture&lt;/a&gt; = 1&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?post_capture&gt;post_capture&lt;/a&gt; = 1&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?event_gap&gt;event_gap&lt;/a&gt; = 60&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?max_movie_time&gt;max_movie_time&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?emulate_motion&gt;emulate_motion&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?output_pictures&gt;output_pictures&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?output_debug_pictures&gt;output_debug_pictures&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?quality&gt;quality&lt;/a&gt; = 75&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?picture_type&gt;picture_type&lt;/a&gt; = jpeg&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_output_movies&gt;ffmpeg_output_movies&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_output_debug_movies&gt;ffmpeg_output_debug_movies&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_timelapse&gt;ffmpeg_timelapse&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_timelapse_mode&gt;ffmpeg_timelapse_mode&lt;/a&gt; = daily&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_bps&gt;ffmpeg_bps&lt;/a&gt; = 500000&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_variable_bitrate&gt;ffmpeg_variable_bitrate&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_video_codec&gt;ffmpeg_video_codec&lt;/a&gt; = mpeg4&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ffmpeg_deinterlace&gt;ffmpeg_deinterlace&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?use_extpipe&gt;use_extpipe&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?extpipe&gt;extpipe&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?snapshot_interval&gt;snapshot_interval&lt;/a&gt; = 60&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?locate_motion_mode&gt;locate_motion_mode&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?locate_motion_style&gt;locate_motion_style&lt;/a&gt; = redcross&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?text_right&gt;text_right&lt;/a&gt; = %Y-%m-%d\n%T-%q&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?text_left&gt;text_left&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?text_changes&gt;text_changes&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?text_event&gt;text_event&lt;/a&gt; = %Y%m%d%H%M%S&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?text_double&gt;text_double&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?exif_text&gt;exif_text&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?target_dir&gt;target_dir&lt;/a&gt; = /var/lib/motion&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?snapshot_filename&gt;snapshot_filename&lt;/a&gt; = %v-%Y%m%d%H%M%S-snapshot&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?picture_filename&gt;picture_filename&lt;/a&gt; = %v-%Y%m%d%H%M%S-%q&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?movie_filename&gt;movie_filename&lt;/a&gt; = %v-%Y%m%d%H%M%S&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?timelapse_filename&gt;timelapse_filename&lt;/a&gt; = %Y%m%d-timelapse&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?ipv6_enabled&gt;ipv6_enabled&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_port&gt;stream_port&lt;/a&gt; = 9876&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_quality&gt;stream_quality&lt;/a&gt; = 25&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_motion&gt;stream_motion&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_maxrate&gt;stream_maxrate&lt;/a&gt; = 100&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_localhost&gt;stream_localhost&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_limit&gt;stream_limit&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_auth_method&gt;stream_auth_method&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?stream_authentication&gt;stream_authentication&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?webcontrol_port&gt;webcontrol_port&lt;/a&gt; = 8765&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?webcontrol_localhost&gt;webcontrol_localhost&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?webcontrol_html_output&gt;webcontrol_html_output&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?webcontrol_authentication&gt;webcontrol_authentication&lt;/a&gt; = monkey:N0712731l&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_type&gt;track_type&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_auto&gt;track_auto&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_port&gt;track_port&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_motorx&gt;track_motorx&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_motorx_reverse&gt;track_motorx_reverse&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_motory&gt;track_motory&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_motory_reverse&gt;track_motory_reverse&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_maxx&gt;track_maxx&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_minx&gt;track_minx&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_maxy&gt;track_maxy&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_miny&gt;track_miny&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_homex&gt;track_homex&lt;/a&gt; = 128&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_homey&gt;track_homey&lt;/a&gt; = 128&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_iomojo_id&gt;track_iomojo_id&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_step_angle_x&gt;track_step_angle_x&lt;/a&gt; = 10&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_step_angle_y&gt;track_step_angle_y&lt;/a&gt; = 10&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_move_wait&gt;track_move_wait&lt;/a&gt; = 10&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_speed&gt;track_speed&lt;/a&gt; = 255&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?track_stepsize&gt;track_stepsize&lt;/a&gt; = 40&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?quiet&gt;quiet&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_event_start&gt;on_event_start&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_event_end&gt;on_event_end&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_picture_save&gt;on_picture_save&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_motion_detected&gt;on_motion_detected&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_area_detected&gt;on_area_detected&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_movie_start&gt;on_movie_start&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_movie_end&gt;on_movie_end&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?on_camera_lost&gt;on_camera_lost&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?sql_log_picture&gt;sql_log_picture&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?sql_log_snapshot&gt;sql_log_snapshot&lt;/a&gt; = on&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?sql_log_movie&gt;sql_log_movie&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?sql_log_timelapse&gt;sql_log_timelapse&lt;/a&gt; = off&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?sql_query&gt;sql_query&lt;/a&gt; = sql_query insert into security(camera, filename, frame, file_type, time_stamp, event_time_stamp) values('%t', '%f', '%q', '%n', '%Y-%m-%d %T', '%C')&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?database_type&gt;database_type&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?database_dbname&gt;database_dbname&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?database_host&gt;database_host&lt;/a&gt; = localhost&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?database_user&gt;database_user&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?database_password&gt;database_password&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?database_port&gt;database_port&lt;/a&gt; = 0&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?sqlite3_db&gt;sqlite3_db&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?video_pipe&gt;video_pipe&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?motion_video_pipe&gt;motion_video_pipe&lt;/a&gt; = (not defined)&lt;/li&gt;
+&lt;li&gt;&lt;a href=/0/config/set?thread&gt;thread&lt;/a&gt; = No threads&lt;/li&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sec.pass.decrypt</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%password</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%password</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line22</Str>
+			<Str sr="arg1" ve="3">&lt;/</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%split</Str>
+			<Str sr="arg1" ve="3"> = </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line221</Str>
+			<Str sr="arg1" ve="3">%split</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%val</Str>
+			<Str sr="arg1" ve="3">%line2212</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">http://%USER:%password@%ROVER_IP:8765/%thread/config/set?%name</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">%name&amp;&amp;%url=%val
+
+
+%HTTPD</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="600"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%url</Str>
+			<Str sr="arg1" ve="3">http://%USER:%password@%ROVER_IP:8765/%thread/config/set?%name</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%newline</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">%newline</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%line</Str>
+			<Str sr="arg1" ve="3">%data()</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line</Str>
+			<Str sr="arg1" ve="3">href=</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line2</Str>
+			<Str sr="arg1" ve="3">&lt;/a&gt;</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line21</Str>
+			<Str sr="arg1" ve="3">&gt;</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%url</Str>
+			<Str sr="arg1" ve="3">%line211</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">%line212</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task546">
+		<cdate>1516224259341</cdate>
+		<edate>1516973651324</edate>
+		<id>546</id>
+		<nme>rover.disconnect</nme>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sec.pass.decrypt</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%password</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%com</Str>
+			<Str sr="arg1" ve="3">sudo kill $(pgrep motion) ; sudo kill $(prep python) ; sudo shutdown -r 0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>2057451072</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Address>%ROVER_IP</Address>
+					<Address-type>java.lang.String</Address-type>
+					<BUNDLE_EXTRA_INT_VERSION_CODE>1</BUNDLE_EXTRA_INT_VERSION_CODE>
+					<BUNDLE_EXTRA_INT_VERSION_CODE-type>java.lang.Integer</BUNDLE_EXTRA_INT_VERSION_CODE-type>
+					<Command>%com</Command>
+					<Command-type>java.lang.String</Command-type>
+					<Keypair_File></Keypair_File>
+					<Keypair_File-type>java.lang.String</Keypair_File-type>
+					<Password>%password</Password>
+					<Password-type>java.lang.String</Password-type>
+					<Password_Variable>true</Password_Variable>
+					<Password_Variable-type>java.lang.Boolean</Password_Variable-type>
+					<Port>22</Port>
+					<Port-type>java.lang.String</Port-type>
+					<Return_Output>true</Return_Output>
+					<Return_Output-type>java.lang.Boolean</Return_Output-type>
+					<Username>pi</Username>
+					<Username-type>java.lang.String</Username-type>
+					<Variable>%out</Variable>
+					<Variable-type>java.lang.String</Variable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%com</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command Keypair_File Address Port Username Password</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.laptopfreek0.sshplugin.paid</Str>
+			<Str sr="arg2" ve="3">com.laptopfreek0.sshplugin.paid.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ACTIVE</Str>
+			<Str sr="arg1" ve="3">off</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Rover disconnected!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_STATE</Str>
+			<Str sr="arg1" ve="3">Disconnected...</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task547">
+		<cdate>1498909206974</cdate>
+		<edate>1516870344837</edate>
+		<id>547</id>
+		<nme>rover.drive.forward</nme>
+		<pri>102</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_ML_VAL</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_MR_VAL</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">255</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">/%function/%ROVER_DRIVE_MODE/%ROVER_ML_VAL/%ROVER_MR_VAL/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">http://%ROVER_IP/cgi-bin/test.cgi?%data</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Left</Str>
+			<Int sr="arg2">
+				<var>%ROVER_ML_VAL</var>
+			</Int>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Right</Str>
+			<Int sr="arg2">
+				<var>%ROVER_MR_VAL</var>
+			</Int>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DEV</Str>
+			<Str sr="arg1" ve="3">/dev/ttyACM0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DEV</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Sent:%data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>300</code>
+			<label>return</label>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DRIVE_MODE</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_ACTIVE</lhs>
+					<op>3</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%function</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">255</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task548">
+		<cdate>1516060309868</cdate>
+		<edate>1516941574926</edate>
+		<id>548</id>
+		<nme>rover.drive.left</nme>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DEV</Str>
+			<Str sr="arg1" ve="3">/dev/ttyACM0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DEV</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_ACTIVE</lhs>
+					<op>3</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">Sent:%data</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%function</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mode</Str>
+			<Str sr="arg1" ve="3">%ROVER_DRIVE_MODE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">255</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">75</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">/%function/%mode/%ROVER_ML_VAL/%ROVER_MR_VAL/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">http://%ROVER_IP/cgi-bin/test.cgi?%data</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Left</Str>
+			<Int sr="arg2">
+				<var>%ROVER_ML_VAL</var>
+			</Int>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Right</Str>
+			<Int sr="arg2">
+				<var>%ROVER_MR_VAL</var>
+			</Int>
+		</Action>
+	</Task>
+	<Task sr="task550">
+		<cdate>1498909206974</cdate>
+		<edate>1516991276574</edate>
+		<id>550</id>
+		<nme>rover.drive.reverse</nme>
+		<pri>102</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_ML_VAL</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_MR_VAL</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">255</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">/%function/%ROVER_DRIVE_MODE/%ROVER_ML_VAL/%ROVER_MR_VAL/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">http://%ROVER_IP/cgi-bin/test.cgi?%data</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Left</Str>
+			<Int sr="arg2">
+				<var>%ROVER_ML_VAL</var>
+			</Int>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Right</Str>
+			<Int sr="arg2">
+				<var>%ROVER_MR_VAL</var>
+			</Int>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DEV</Str>
+			<Str sr="arg1" ve="3">/dev/ttyACM0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DEV</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Sent:%data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>300</code>
+			<label>return</label>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%out</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DRIVE_MODE</Str>
+			<Str sr="arg1" ve="3">2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_ACTIVE</lhs>
+					<op>3</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%function</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">255</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task551">
+		<cdate>1516060201916</cdate>
+		<edate>1516941661858</edate>
+		<id>551</id>
+		<nme>rover.drive.right</nme>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_DEV</Str>
+			<Str sr="arg1" ve="3">/dev/ttyACM0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DEV</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ACTIVE</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_ACTIVE</lhs>
+					<op>3</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">Sent:%data</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%function</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%mode</Str>
+			<Str sr="arg1" ve="3">%ROVER_DRIVE_MODE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">255</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">75</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">/%function/%mode/%ROVER_ML_VAL/%ROVER_MR_VAL/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">http://%ROVER_IP/cgi-bin/test.cgi?%data</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Left</Str>
+			<Int sr="arg2">
+				<var>%ROVER_ML_VAL</var>
+			</Int>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>50</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">Slider_PWM_Right</Str>
+			<Int sr="arg2">
+				<var>%ROVER_MR_VAL</var>
+			</Int>
+		</Action>
+	</Task>
+	<Task sr="task552">
+		<cdate>1516794582750</cdate>
+		<edate>1516976536039</edate>
+		<id>552</id>
+		<nme>rover.gui.slider_left</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">124</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%val</Str>
+			<Str sr="arg1" ve="3">6.2*%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg1" ve="3">%val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">rover.drive.forward</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg3" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DRIVE_MODE</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ROVER_DRIVE_MODE</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%ROVER_DRIVE_MODE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">rover.drive.reverse</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg3" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DRIVE_MODE</lhs>
+					<op>0</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task553">
+		<cdate>1516794582750</cdate>
+		<edate>1516976546124</edate>
+		<id>553</id>
+		<nme>rover.gui.slider_right</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%val</Str>
+			<Str sr="arg1" ve="3">124/20</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>550</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">%val</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="600"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>0</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">124</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%new_val</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%val</Str>
+			<Str sr="arg1" ve="3">6.2*%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg1" ve="3">%val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">rover.drive.forward</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ROVER_ML_VAL</Str>
+			<Str sr="arg3" ve="3">%ROVER_MR_VAL</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_DRIVE_MODE</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task554">
+		<cdate>1515995226965</cdate>
+		<edate>1517060030805</edate>
+		<id>554</id>
+		<nme>rover.gui</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROVER_INIT</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Initializing...</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Int sr="arg1" val="8"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">rover.init</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Done!</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>194</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%status</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>46</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%status</lhs>
+					<op>2</op>
+					<rhs>uncreated</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Testing connection...</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">rover.test.connected</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Done! Loading GUI..</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hd_aaa_ext_car</nme>
+		</Img>
+	</Task>
+	<Task sr="task556">
+		<cdate>1516941934311</cdate>
+		<edate>1516942050452</edate>
+		<id>556</id>
+		<nme>rover.rotate.left</nme>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%url</Str>
+			<Str sr="arg1" ve="3">http://%ROVER_IP/cgi-bin/test.cgi?/6/1/5/255/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%url</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task557">
+		<cdate>1516941950202</cdate>
+		<edate>1516942061699</edate>
+		<id>557</id>
+		<nme>rover.rotate.right</nme>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%url</Str>
+			<Str sr="arg1" ve="3">http://%ROVER_IP/cgi-bin/test.cgi?/6/2/255/5/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%url</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task558">
+		<cdate>1516400028065</cdate>
+		<edate>1516438233983</edate>
+		<id>558</id>
+		<nme>rover.scan.net</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">net.getip</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%myip</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%myip</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCALIP</lhs>
+					<op>2</op>
+					<rhs>not set</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%myip</Str>
+			<Str sr="arg1" ve="3">%LOCALIP</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCALIP</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCALIP</lhs>
+					<op>3</op>
+					<rhs>%*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%LOCALIP</lhs>
+					<op>3</op>
+					<rhs>not set</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">start</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pos</lhs>
+					<op>6</op>
+					<rhs>25</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%active1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%active1</lhs>
+					<op>3</op>
+					<rhs>%*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_IP</Str>
+			<Str sr="arg1" ve="3">%active1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Rover found at %ROVER_IP!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">return</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_IP</Str>
+			<Str sr="arg1" ve="3">Not found!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">No rover found!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">return</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%myip</Str>
+			<Str sr="arg1" ve="3">.</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>300</code>
+			<label>return</label>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>194</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%status</Str>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">rover.controls</Str>
+			<Str sr="arg1" ve="3">OUTPUT</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%out</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%status</lhs>
+					<op>3</op>
+					<rhs>uncreated</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%subnet</Str>
+			<Str sr="arg1" ve="3">%myip1.%myip2.%myip3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>300</code>
+			<label>start</label>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%pos</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%test</Str>
+			<Str sr="arg1" ve="3">%subnet.%pos</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%test:8765</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="2"/>
+			<Str sr="arg6" ve="3">text/html</Str>
+			<Str sr="arg7" ve="3">temp</Str>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%response</Str>
+			<Str sr="arg1" ve="3">%HTTPR</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%active</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%test</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%response</lhs>
+					<op>0</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task559">
+		<cdate>1516399858549</cdate>
+		<edate>1516973091043</edate>
+		<id>559</id>
+		<nme>rover.test.connected</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">ping -c 1 %ROVER_IP</Str>
+			<Int sr="arg1" val="8"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%out</Str>
+			<Str sr="arg4" ve="3">%out</Str>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%out</lhs>
+					<op>4</op>
+					<rhs>0% packet loss</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">rover.disconnect</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%out</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">return</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>300</code>
+			<label>return</label>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sec.pass.decrypt</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%password</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%com</Str>
+			<Str sr="arg1" ve="3">motion=$(pgrep motion) ; python=$(pgrep python) ; echo "Motion=$motion,Python=$python"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>2057451072</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Address>%ROVER_IP</Address>
+					<Address-type>java.lang.String</Address-type>
+					<BUNDLE_EXTRA_INT_VERSION_CODE>1</BUNDLE_EXTRA_INT_VERSION_CODE>
+					<BUNDLE_EXTRA_INT_VERSION_CODE-type>java.lang.Integer</BUNDLE_EXTRA_INT_VERSION_CODE-type>
+					<Command>%com</Command>
+					<Command-type>java.lang.String</Command-type>
+					<Keypair_File></Keypair_File>
+					<Keypair_File-type>java.lang.String</Keypair_File-type>
+					<Password>%password</Password>
+					<Password-type>java.lang.String</Password-type>
+					<Password_Variable>true</Password_Variable>
+					<Password_Variable-type>java.lang.Boolean</Password_Variable-type>
+					<Port>22</Port>
+					<Port-type>java.lang.String</Port-type>
+					<Return_Output>true</Return_Output>
+					<Return_Output-type>java.lang.Boolean</Return_Output-type>
+					<Username>pi</Username>
+					<Username-type>java.lang.String</Username-type>
+					<Variable>%state</Variable>
+					<Variable-type>java.lang.String</Variable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%com</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Command Keypair_File Address Port Username Password</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.laptopfreek0.sshplugin.paid</Str>
+			<Str sr="arg2" ve="3">com.laptopfreek0.sshplugin.paid.EditActivity</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>4</op>
+					<rhs>Motion=,Python=</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">rover.connect</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%out</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">Rover online! Connected to %ROVER_IP</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%out</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%out</lhs>
+					<op>2</op>
+					<rhs>%*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">return</Str>
+		</Action>
+	</Task>
+	<Task sr="task560">
+		<cdate>1516976822411</cdate>
+		<edate>1516977288228</edate>
+		<id>560</id>
+		<nme>rover.intent.received</nme>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">data(){%intent_data}
+action=%evtprm1
+cat1=%evtprm2
+cat2=%evtprm3
+uri_scheme=%evtprm4
+mime=%evtprm5</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>410</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">intents.received</Str>
+			<Str sr="arg1" ve="3">%DATE.%TIME.%USER= data(){%intent_data}&amp;&amp;action=%evtprm1&amp;&amp;cat1=%evtprm2&amp;&amp;cat2=%evtprm3&amp;&amp;uri_scheme=%evtprm4&amp;&amp;mime=%evtprm5</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task562">
+		<cdate>1516977309503</cdate>
+		<edate>1516977553749</edate>
+		<id>562</id>
+		<nme>rover.intent.send</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>877</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">com=startTracking</Str>
+			<Str sr="arg4" ve="3">type=gps</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">biz.simiantech.nicole.nicrover</Str>
+			<Str sr="arg8" ve="3">biz.simiantech.nicole.nicrover.tracking</Str>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task563">
+		<cdate>1516977982492</cdate>
+		<edate>1516979843558</edate>
+		<id>563</id>
+		<nme>rover.init</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%vars</Str>
+			<Str sr="arg1" ve="3">AROWNKEY='APA91bHBp_Rp_5TE6tvkDFIJHdXR5cj2M0QOw3KM4KodgwEtaMPwrWq5eyT7A93XxJ9PQQCPi08kRyfjFGmzdjT9GM4IKOqdQq-lmJtOFZYjtEtAJiCotyODTn_y5xsLsvMiEFw7B4Tr'
+BATT_STATE='draining'
+BTN_LabelColor='#FF00FCFF'
+FONT='/storage/emulated/0/Nicole/Font/Alexander.ttf'
+FONTSIZE='14'
+HEALTH='118'
+LOCALIP='192.168.2.3'
+MEMT='2.978 GB'
+MOOD='1747'
+MOOD_RATIO='1480.508'
+NICOLE='Nicole'
+ROVER_ACTIVE='on'
+ROVER_BAUD='115200'
+ROVER_DEV='/dev/ttyACM0'
+ROVER_DRIVE_MODE='1'
+ROVER_IP='192.168.2.14'
+ROVER_LOCK_SLIDERS='on'
+ROVER_ML_VAL='0'
+ROVER_MR_VAL='0'
+ROVER_STATE='Disconnected...'
+TEMPER='NORMAL'
+TXTBOX_TextColor='#FF00FCFF'
+TXTEDIT_TextColor='#FF000000'
+USER='Master'
+ALARM='not set'
+AQUA='#00FFFF'
+AUTHATTEMPTS='3'
+AVAMBIENT='false'
+AVCONTINUOUS='false'
+BACKGROUND2='#FF726C6C'
+BACKGROUND='#FF000000'
+BATT_STATE='draining'
+BDAY='not set'
+BLACK='#000000'
+BORDERCOLOR='#FFFCF203'
+BTN_LabelColor='#FF00FCFF'
+CALLHANDLER='0'
+CAMSDATA='simiantech.biz&amp;&amp;1,2&amp;&amp;Camera Offline!&amp;&amp;STCustoms "Nicole" Camera Viewer'
+CHESS_TURN='White'
+CLICK_ACTION='chess.move'
+DICTATE='0'
+FILEBROWSER_CWD='/sdcard'
+FILEBROWSER_MODE='local'
+FLASH_ACTIVE='on'
+FLASH_COMS='on'
+FONT='/storage/emulated/0/Nicole/Font/fontchoice.ttf'
+FONTSIZE='14'
+FONTSIZE='14'
+FUCHSIA='#FF00FF'
+GOOGLEACCT='user@email.com'
+GRAY='#808080'
+GREEN='#008000'
+HANDSFREE='0'
+ICON_ClickHighlightColor='#FF00FCFF'
+LIME='#00FF00'
+LISTEN='listen'
+LOCALIP='not set'
+MAROON='#800000'
+MENU='shell'
+MENU_BorderColor='#FF00FF05'
+MENU_LabelColor='#FF000000'
+MENU_TextColor='#FF00FCFF'
+NAVY='#000080'
+NICOLE='NICOLE'
+NOPE='no/*no/*no*/no*/nope/*nope/*nope*/nope*/negative/*negative/*negative*/negative*/not/*not/*not*/not*/%SWEAR'
+NOTIFY='notify'
+NPLAYER_CONT='on'
+NPLAYER_FULLSCREEN='on'
+NPLAYER_SHUFFLE='on'
+NUMPICKER_BorderColor='#000000'
+NUMPICKER_Color='#000000'
+OCEANBLUE='#0000FF'
+OLIVE='#808000'
+PBDL_AUTODL='off'
+PBDL_MOVE='0'
+PURPLE='#800080'
+RED='#FF0000'
+SAY='say'
+SAY_ACTIVE='on'
+SAY_PITCH='5'
+SAY_SPEED='5'
+SCANNER='off'
+SEC_WINDOWS='*Location*/*Location History*/*Loading Location Sharing settings*/*Location Sharing*/*Security*/*lock*'
+SHELL='nicshell'
+SIGNATURE='&lt;::Sent by STCustoms "Nicole" for android::&gt;'
+SILVER='#C0C0C0'
+SMS='sms.send'
+SWEAR='fuck/*fuck/*fuck*/fuck*/shit/*shit/*shit*/shit*/damn/*damn/*damn*/damn*/bastard/*bastard/*bastard*/bastard*/bitch/*bitch/*bitch*/bitch*/cunt/*cunt/*cunt*/cunt*/cock/*cock/*cock*/cock*/sucker/*sucker/*sucker*/sucker*/motherfucker/*motherfucker/*motherfucker*/motherfucker*/ass/*ass/*ass*/ass*'
+TAROT_SPREAD='tarot.infyramid'
+TEAL='#008080'
+TEMPER='Normal'
+TXTBOX_BorderColor='#FF00FF05'
+TXTBOX_Color='#FF000000'
+TXTBOX_TextColor='#FF00FCFF'
+TXTEDIT_BorderColor='#FF00FCFF'
+TXTEDIT_Color='#FFFFFEFE'
+TXTEDIT_TextColor='#FF000000'
+USER='Master'
+USER_FULLNAME='Not Set'
+USER_PHONE='Not Set'
+USERAGE='not set'
+VULGAR='0'
+WEB='1'
+WEBHOME='http://simiantech.biz/nicchat.html'
+WEBSTART='lasturl'
+WEBVIEW_BorderColor='#FF00FF05'
+WEBVIEW_Color='#FFFFFFFF'
+WHITE='#FFFFFF'
+YELLOW='#FFFF00'
+YES='yes/*yes/*yes*/yes*/yup/*yup/*yup*/yup*/yea/*yea/*yea*/yea*/yeah/*yeah/*yeah*/yeah*/absolutely/*absolutely/*absolutely*/absolutely*/indeed/*indeed/*indeed*/indeed*/right/*right/*right*/right*/correct/*correct/*correct*/correct*/affirmative/*affirmative/*affirmative*/affirmative*'</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%newline</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">0</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%vars</Str>
+			<Str sr="arg1" ve="3">%newline</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%line</Str>
+			<Str sr="arg1" ve="3">%vars()</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line</Str>
+			<Str sr="arg1" ve="3">='</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line2</Str>
+			<Str sr="arg1" ve="3">'</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%var</Str>
+			<Str sr="arg1" ve="3">%line1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%%var</Str>
+			<Str sr="arg1" ve="3">%line21</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ROVER_INIT</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task57">
+		<cdate>1481569947167</cdate>
+		<edate>1512277982065</edate>
+		<id>57</id>
+		<nme>net.getip</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>341</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%conntype</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%newline</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%conntype</lhs>
+					<op>2</op>
+					<rhs>wifi</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%info</Str>
+			<Str sr="arg1" ve="3">%WIFII</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%info</Str>
+			<Str sr="arg1" ve="3">%newline</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%info6</Str>
+			<Str sr="arg1" ve="3">:%space</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOCALIP</Str>
+			<Str sr="arg1" ve="3">%info62</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%conntype</lhs>
+					<op>2</op>
+					<rhs>wifi</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">Error : Please connect to a local network first!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%OUTPUT</Str>
+			<Str sr="arg1" ve="3">My local ip address is:
+%LOCALIP</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%space</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DEBUG</Str>
+			<Str sr="arg1" ve="3">evtprm=%evtprm
+evtprm=%evtprm(#)
+evtprm=%evtprm()
+caller=%caller
+caller=%caller(#)
+caller=%caller()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%LOCALIP</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%conntype</lhs>
+					<op>2</op>
+					<rhs>ethernet</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">netstat | grep "ESTABLISHED"</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%out</Str>
+			<Str sr="arg4" ve="3">%out</Str>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%out</Str>
+			<Str sr="arg1" ve="3">%newline</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%split</Str>
+			<Str sr="arg1" ve="3"> tcp       0      0 </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>590</code>
+			<label>tcp       0      0 10.0.0.2:58665         198.252.206.25:443     ESTABLISHED</label>
+			<Str sr="arg0" ve="3">%out1</Str>
+			<Str sr="arg1" ve="3">%split</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%out12</Str>
+			<Str sr="arg1" ve="3">:</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOCALIP</Str>
+			<Str sr="arg1" ve="3">%out121</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
